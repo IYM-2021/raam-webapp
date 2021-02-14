@@ -31,7 +31,7 @@ class IYMTeam extends Component {
               <div className="Team-Content">
                 <p className="Team-Name">Doug Barton</p>
                 <p className="Team-Description">
-                  Director of E-Buisness Consortium at UW-Madison
+                  Director of E-Business Consortium at UW-Madison
                 </p>
                 <a
                   className="LinkedIn-Link"
