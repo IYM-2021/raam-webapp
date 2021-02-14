@@ -8,7 +8,7 @@ function round(num) {
 class Biometrics extends Component {
   render() {
     return (
-      <div className="Biometrics">
+      <div>
         <h2>Live Biometrics</h2>
         <div className="row">
           <div className="col">
@@ -31,7 +31,7 @@ class Biometrics extends Component {
                 <div className="Live-Data-Cell-Name"> {"- Speed"}</div>
                 <div className="Live-Data-Cell-Description">
                   {
-                    "The speed of a cyclist ranges wildly based on terrain. Average might be 22-26km h over long distances."
+                    "The speed of a cyclist ranges wildly based on terrain. The average might be 22-26 km/hr over long distances."
                   }
                 </div>
               </div>
@@ -93,78 +93,8 @@ class Biometrics extends Component {
               </div>
             </div>
           </div>
-          {/* <div className="col"></div> */}
         </div>
       </div>
-
-      // <div className="liveData">
-      //   <table
-      //     align="center"
-      //     className="liveDataTable"
-      //     style={{ marginBottom: 25 }}
-      //   >
-      //     <tbody>
-      //       <tr>
-      //         <td className="liveDataCell">Heart rate:&emsp;</td>
-      //         <td className="liveDataCell">
-      //           {this.props.hr !== undefined
-      //             ? this.props.hr + " bpm"
-      //             : "No data"}
-      //         </td>
-      //       </tr>
-      //       <tr>
-      //         <td className="liveDataCell">Speed:&emsp;</td>
-      //         <td className="liveDataCell">
-      //           {this.props.speed !== undefined
-      //             ? this.props.speed * 3.6 + " km/hr"
-      //             : "No data"}
-      //         </td>
-      //       </tr>
-      //       <tr>
-      //         <td className="liveDataCell">Cadence:&emsp;</td>
-      //         <td className="liveDataCell">
-      //           {this.props.cadence !== undefined
-      //             ? this.props.cadence + " rpm"
-      //             : "No data"}
-      //         </td>
-      //       </tr>
-      //       <tr>
-      //         <td className="liveDataCell">Power:&emsp;</td>
-      //         <td className="liveDataCell">
-      //           {this.props.power !== undefined
-      //             ? this.props.power + " watts"
-      //             : "No data"}
-      //         </td>
-      //       </tr>
-      //       <tr>
-      //         <td className="liveDataCell">Altitude:&emsp;</td>
-      //         <td className="liveDataCell">
-      //           {this.props.altitude !== undefined
-      //             ? this.props.altitude + " meters"
-      //             : "No data"}
-      //         </td>
-      //       </tr>
-      //       <tr>
-      //         <td className="liveDataCell">Temperature:&emsp;</td>
-      //         <td className="liveDataCell">
-      //           {this.props.temp !== undefined
-      //             ? this.props.temp + "\u00B0 C"
-      //             : "No data"}
-      //         </td>
-      //       </tr>
-      //       <tr>
-      //         <td className="liveDataCell">
-      //           MO<sub>2</sub>:&emsp;
-      //         </td>
-      //         <td className="liveDataCell">
-      //           {this.props.mo2 !== undefined
-      //             ? this.props.mo2 + "%"
-      //             : "No data"}
-      //         </td>
-      //       </tr>
-      //     </tbody>
-      //   </table>
-      // </div>
     );
   }
 }

@@ -17,9 +17,7 @@
     overflow: hidden;
     padding: 10px;
     margin: 10px;
-    // font-size: 32px;
     transition: transform 400ms;
-    // transition-delay: 300ms;
     font-weight: 600;
     letter-spacing: 1px;
 
@@ -75,17 +73,10 @@
   }
 }
 
-.liveData {
-  color: #2d2d2c;
-}
-
 @media only screen and (max-width: 520px) {
-  .Biometrics {
-    margin-top: -80px;
-  }
-
   .Live-Data {
     padding-left: 15px;
     padding-right: 15px;
+    max-width: 390px;
   }
 }
