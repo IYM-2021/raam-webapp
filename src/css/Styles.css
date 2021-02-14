@@ -158,7 +158,7 @@ a:hover, a:active, a:focus {
   border-radius: 6px;
   overflow: hidden;
   min-height: 500px;
-  max-width: 1000px;
+  max-width: 720px;
   min-width: 500px;
   flex-shrink: 3;
   flex-grow: 3;
@@ -546,6 +546,12 @@ a:hover, a:active, a:focus {
   .About-Content p {
     text-indent: 0;
     font-size: 18px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .About-Content {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 .Social-Button-Box {
