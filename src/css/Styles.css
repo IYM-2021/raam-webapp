@@ -640,43 +640,50 @@ a:hover, a:active, a:focus {
 .crt-widget {
   z-index: 0;
 }
-.crt-widget .crt-feed .crt-post {
+.crt-widget .crt-feed .crt-list-post {
   box-shadow: 0px 4px 20px #00000026, 0px 4px 4px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
   overflow: hidden;
   border-width: 0px;
   margin: 16px 0px;
 }
-.crt-widget .crt-feed .crt-post .crt-post-content {
+.crt-widget .crt-feed .crt-list-post .crt-post-content {
   font-size: 16px;
   line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.crt-widget .crt-feed .crt-post .crt-post-content .crt-post-header {
-  margin-top: -20px;
+.crt-widget .crt-feed .crt-list-post .crt-post-content .crt-list-post-image {
+  width: 100% !important;
 }
-.crt-widget .crt-feed .crt-post .crt-post-content .crt-post-header .crt-post-fullname {
-  margin-top: -15px;
-  font-size: 20px;
-}
-.crt-widget .crt-feed .crt-post .crt-post-content .crt-post-text {
-  margin-bottom: -15px;
+.crt-widget .crt-feed .crt-list-post .crt-post-content .crt-list-post-text {
   color: #2d2d2c;
 }
-.crt-widget .crt-feed .crt-post .crt-post-content a {
-  color: #da0001;
+.crt-widget .crt-feed .crt-list-post .crt-post-content .crt-list-post-text .crt-post-header {
+  margin-top: -20px;
+  margin-bottom: -20px;
 }
-.crt-widget .crt-feed .crt-post .crt-post-content a:hover, .crt-widget .crt-feed .crt-post .crt-post-content a:active, .crt-widget .crt-feed .crt-post .crt-post-content a:focus {
-  color: #707070;
+.crt-widget .crt-feed .crt-list-post .crt-post-content .crt-list-post-text .crt-post-header .crt-post-fullname {
+  font-size: 24px;
 }
-.crt-widget .crt-feed .crt-post .crt-post-footer .crt-post-username {
+.crt-widget .crt-feed .crt-list-post .crt-post-content .crt-list-post-text .crt-list-post-text-wrap {
+  color: #2d2d2c;
+  margin-bottom: -10px;
+}
+.crt-widget .crt-feed .crt-list-post .crt-post-content .crt-list-post-text .crt-post-footer .crt-post-username {
   display: none;
 }
-.crt-widget .crt-feed .crt-post .crt-post-footer .crt-post-date {
+.crt-widget .crt-feed .crt-list-post .crt-post-content .crt-list-post-text .crt-post-footer .crt-post-date {
   font-size: 16px;
   margin-left: -20px;
 }
-.crt-widget .crt-feed .crt-list-post-text-wrap {
-  color: #2d2d2c;
+.crt-widget .crt-feed .crt-list-post .crt-post-content a {
+  color: #da0001;
+}
+.crt-widget .crt-feed .crt-list-post .crt-post-content a:hover, .crt-widget .crt-feed .crt-list-post .crt-post-content a:active, .crt-widget .crt-feed .crt-list-post .crt-post-content a:focus {
+  color: #707070;
 }
 
 .Live-Data {
