@@ -14,6 +14,9 @@ import samarth from "../images/AtheletePages/samarth.png";
 import SamarthBio from "../Components/Bio/SamarthBio";
 import AthleteLiveData from "../Components/AthleteLiveData";
 
+const SAMARTH_FEED =
+  "https://cdn.curator.io/published/909eb93e-5ca5-4143-b4dc-32073e604857.js";
+
 class Samarth extends Component {
   render() {
     return (
@@ -21,7 +24,7 @@ class Samarth extends Component {
         <NavBar />
         <PageHeader text="Dr. Amit Samarth" />
         <AthleteInfo name="Dr. Amit Samarth" img={samarth} bio={SamarthBio} />
-        <AthleteLiveData id="00001" isHome={false} isSamarth={true}/>
+        <AthleteLiveData id="00001" isHome={false} feedID={SAMARTH_FEED} feedName="amit"/>
         <SamarthSocial />
         <Footer />
       </Parallax>

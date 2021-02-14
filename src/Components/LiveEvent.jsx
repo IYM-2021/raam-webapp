@@ -35,7 +35,7 @@ class LiveEvent extends Component {
           {/* ^ REMOVE GARMIN MAP WHEN RWANDA IS FINISHED ^ */}
         </div>
         <div className="col Live-Event-Feed-Box">
-          <CuratorFeed feedID={this.props.feedID} />
+          <CuratorFeed feedID={this.props.feedID} feedName={this.props.feedName} />
         </div>
       </div>
     );
