@@ -83,42 +83,42 @@ class AthleteLiveData extends Component {
           ) : ( */}
             <Biometrics
               hr={
-                items[index].properties.sensors.hr !== undefined
+                items[index].properties.sensors.hr !== undefined && items[index].properties.sensors.hr !== null
                   ? items[index].properties.sensors.hr
                   : undefined
               }
               speed={
-                items[index].properties.speed !== undefined
+                items[index].properties.speed !== undefined && items[index].properties.speed !== null
                   ? items[index].properties.speed
                   : undefined
               }
               cadence={
-                items[index].properties.sensors.cadence !== undefined
+                items[index].properties.sensors.cadence !== undefined && items[index].properties.sensors.cadence !== null
                   ? items[index].properties.sensors.cadence
                   : undefined
               }
               power={
-                items[index].properties.sensors.power !== undefined
+                items[index].properties.sensors.power !== undefined && items[index].properties.sensors.power !== null
                   ? items[index].properties.sensors.power
                   : undefined
               }
               altitude={
-                items[index].properties.altitude !== undefined
+                items[index].properties.altitude !== undefined && items[index].properties.altitude !== null
                   ? items[index].properties.altitude
                   : undefined
               }
               temp={
-                items[index].properties.sensors.temp !== undefined
+                items[index].properties.sensors.temp !== undefined && items[index].properties.sensors.temp !== null
                   ? items[index].properties.sensors.temp
                   : undefined
               }
               mo2={
-                items[index].properties.sensors.mo2 !== undefined
+                items[index].properties.sensors.mo2.mo2Saturation !== undefined && items[index].properties.sensors.mo2.mo2Saturation !== null 
                   ? items[index].properties.sensors.mo2.mo2Saturation
                   : undefined
               }
             />
-          // )}
+          {/* // )} */}
         </div>
       );
     }
