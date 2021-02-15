@@ -18,13 +18,6 @@
     &:active,
     &:focus {
       background: linear-gradient(315deg, #da0001, 50%, #f17e7e);
-      //scale(1, 2);
-      // background: linear-gradient(
-      //   315deg,
-      //   darken(#da0001, 5%),
-      //   50%,
-      //   darken(#f17e7e, 5%)
-      // );
     }
   }
   .Dropdown-Menu {
@@ -51,7 +44,3 @@
     }
   }
 }
-
-// For an attempt to align the drop menu to center when button does
-// @media only screen and (max-width: 956px) {
-// }

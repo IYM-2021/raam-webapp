@@ -556,7 +556,6 @@ a:hover, a:active, a:focus {
 
   .Nav-Bar {
     position: relative !important;
-    z-index: 0 !important;
   }
 }
 @media only screen and (max-width: 956px) {
@@ -566,7 +565,6 @@ a:hover, a:active, a:focus {
 
   .Nav-Bar {
     position: relative !important;
-    z-index: 0 !important;
   }
   .Nav-Bar .Nav-Bar-Title {
     justify-content: center !important;
