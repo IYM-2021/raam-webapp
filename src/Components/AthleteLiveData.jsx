@@ -76,11 +76,11 @@ class AthleteLiveData extends Component {
           feedID={this.props.feedID || DEFAULT_FEED}
           feedName={this.props.feedName || "default-feed"}
         />
-          {items[index].properties.device.testing && !this.props.isHome ? (
+          {/* {items[index].properties.device.testing && !this.props.isHome ? (
             <div className="testingMsg" style={{ textAlign: "center" }}>
               This athlete's data is in the testing stage
             </div>
-          ) : (
+          ) : ( */}
             <Biometrics
               hr={
                 items[index].properties.sensors.hr !== undefined
@@ -118,7 +118,7 @@ class AthleteLiveData extends Component {
                   : undefined
               }
             />
-          )}
+          // )}
         </div>
       );
     }
