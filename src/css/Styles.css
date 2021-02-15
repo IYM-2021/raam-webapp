@@ -154,6 +154,9 @@ a:hover, a:active, a:focus {
 .crt-widget .crt-feed .crt-list-post .crt-post-content .crt-list-post-image {
   width: 100% !important;
 }
+.crt-widget .crt-feed .crt-list-post .crt-post-content .crt-list-post-image .crt-post-content-image {
+  width: 100% !important;
+}
 .crt-widget .crt-feed .crt-list-post .crt-post-content .crt-list-post-text {
   color: #2d2d2c;
 }
