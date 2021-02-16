@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Container } from "reactstrap";
+import markerPNG from "../../images/marker.png";
 // import React from 'react'
 
 import ReactMapGL, {
@@ -70,7 +71,7 @@ class Fanexperience extends Component {
               longitude={this.props.markLong !== undefined ? this.props.markLong : -89}
             >
               <img
-                src="https://img.icons8.com/color/48/000000/marker.png"
+                src={markerPNG}
                 alt=""
               />
             </Marker>
