@@ -117,9 +117,10 @@ class AthleteLiveData extends Component {
                   : undefined
               }
               mo2={
-                items[index].properties.sensors.mo2.mo2Saturation !== undefined && items[index].properties.sensors.mo2.mo2Saturation !== null 
-                  ? items[index].properties.sensors.mo2.mo2Saturation
-                  : undefined
+                // items[index].properties.sensors.mo2.mo2Saturation !== undefined && items[index].properties.sensors.mo2.mo2Saturation !== null 
+                //   ? items[index].properties.sensors.mo2.mo2Saturation
+                //   : undefined
+                undefined
               }
             />
           {/* // )} */}
