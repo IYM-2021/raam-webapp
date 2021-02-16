@@ -68,6 +68,8 @@ class AthleteLiveData extends Component {
         />
       );
     } else {
+      var date = new Date(items[index].properties.ts*1000);
+      var dateFormat = date.toLocaleString("en-US", {timeZoneName: "short"});
       return (
         <div>
           <LiveEvent
@@ -76,12 +78,14 @@ class AthleteLiveData extends Component {
           feedID={this.props.feedID || DEFAULT_FEED}
           feedName={this.props.feedName || "default-feed"}
         />
+        
           {/* {items[index].properties.device.testing && !this.props.isHome ? (
             <div className="testingMsg" style={{ textAlign: "center" }}>
               This athlete's data is in the testing stage
             </div>
           ) : ( */}
             <Biometrics
+              ts = {dateFormat}
               hr={
                 items[index].properties.sensors.hr !== undefined && items[index].properties.sensors.hr !== null
                   ? items[index].properties.sensors.hr

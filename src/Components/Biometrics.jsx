@@ -10,6 +10,7 @@ class Biometrics extends Component {
     return (
       <div>
         <h2>Live Biometrics</h2>
+        <div className="timeStamp" style={{textAlign: "center"}}>As of {this.props.ts}</div>
         <div className="row">
           <div className="col">
             <div className="Live-Data">
