@@ -19,7 +19,7 @@ class Pledge extends Component {
         <NavBar />
         <PledgeVideo />
         <PledgeInfo />
-        <PledgeTracker />
+        {/* <PledgeTracker /> */}
         <LearnMore />
         <Footer />
       </Parallax>
