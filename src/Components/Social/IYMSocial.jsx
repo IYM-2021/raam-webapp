@@ -20,16 +20,16 @@ class IYMSocial extends Component {
             {" "}
           </a>
           <a
-            className="fab fa-instagram-square Social-Button"
-            href="https://www.instagram.com/itsyourmove2021/"
+            className="fab fa-facebook-square Social-Button"
+            href="https://www.facebook.com/itsyourmove2021/"
             target="_blank"
             rel="noopener noreferrer"
           >
             {" "}
           </a>
           <a
-            className="fab fa-facebook-square Social-Button"
-            href="https://www.facebook.com/itsyourmove2021/"
+            className="fab fa-instagram-square Social-Button"
+            href="https://www.instagram.com/itsyourmove2021/"
             target="_blank"
             rel="noopener noreferrer"
           >
