@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "../css/Styles.css";
 import Biometrics from "./Biometrics";
 import LiveEvent from "./LiveEvent";
-import MapBoxSection from "./Map/MapBoxSection";
 
 const DEFAULT_FEED =
   "https://cdn.curator.io/published/9f9e3fe1-73a0-40c2-a822-81500b89790d.js";

@@ -14,6 +14,7 @@ import Haase from "./pages/Haase";
 import MacDonald from "./pages/MacDonald";
 import Cross from "./pages/Cross";
 import Hering from "./pages/Hering";
+import Baetz from "./pages/Baetz";
 
 class App extends Component {
   render() {
@@ -30,6 +31,7 @@ class App extends Component {
             <Route path="/MacDonald" component={MacDonald} exact />
             <Route path="/Cross" component={Cross} exact />
             <Route path="/Hering" component={Hering} exact />
+            <Route path="/Baetz" component={Baetz} exact />
             <Route path="/Oops" component={Oops} exact />
           </Switch>
         </BrowserRouter>

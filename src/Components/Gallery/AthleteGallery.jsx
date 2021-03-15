@@ -8,6 +8,7 @@ import macdonald from "../../images/athletes/macdonald.PNG";
 import cross from "../../images/athletes/cross.jpg";
 import fraissard from "../../images/athletes/fraissard.PNG";
 import hering from "../../images/athletes/hering.jpg";
+import baetz from "../../images/athletes/baetz.jpg";
 
 class AthleteGallery extends Component {
   render() {
@@ -61,6 +62,14 @@ class AthleteGallery extends Component {
               event="Snowshoe Running"
               img={hering}
               link="/Hering"
+            ></GalleryCard>
+          </div>
+          <div className="col Event-Gallery-Card-Container">
+            <GalleryCard
+              name="James Baetz"
+              event="Backyard Ultra Marathon"
+              img={baetz}
+              link="/Baetz"
             ></GalleryCard>
           </div>
         </div>
