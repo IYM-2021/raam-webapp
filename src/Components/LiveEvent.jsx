@@ -11,7 +11,7 @@ class LiveEvent extends Component {
       <div className="Live-Event row">
         <div className="col Live-Event-Map-Box">
           {/* USE MAPBOX FOR ALL EVENTS AFTER RWANDA */}
-          <MapBox
+          {/* <MapBox
             token="pk.eyJ1IjoiaXRzeW91cm1vdmUiLCJhIjoiY2tqeGJqbzg5MDF3eDJ3bzh1MTk2bWhqYSJ9.w4UUfWxmTk630JJ0CgtfnA"
             mapStyle="mapbox://styles/itsyourmove/ckjxu50uf218917pc610sqa3n"
             latitude={21}
@@ -19,9 +19,23 @@ class LiveEvent extends Component {
             markLat={this.props.athleteLat !== undefined ? this.props.athleteLat : undefined}
             markLong={this.props.athleteLong !== undefined ? this.props.athleteLong : undefined}
             zoom={4.2}
-          />
-
-          {/* v REMOVE GARMIN MAP WHEN RWANDA IS FINISHED v */}
+          /> */}
+          {/* v REMOVE GARMIN MAP WHEN BACKYARD ULTRA IS FINISHED v */}
+          <div className="Live-Event row">
+          <div className="col Live-Event-Map-Box">
+            <div className="Garmin-Map">
+              <iframe
+                title="FraissardGarminMap"
+                src="https://share.garmin.com/IYM"
+                frameborder="0"
+                marginwidth="0"
+                marginheight="0"
+                width="100%"
+                height="500"
+              ></iframe>
+            </div>
+          </div>
+        </div>          
           {/* <div className="Garmin-Map">
             <iframe
               src="https://share.garmin.com/share/lespoulettesfrites"

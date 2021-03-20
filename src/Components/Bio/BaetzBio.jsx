@@ -8,13 +8,20 @@ class BaetzBio extends Component {
       <div>
         <h2>Bio</h2>
         <p>
-          <strong>Adventure:</strong> Backyard Ultra Marathon
+          <strong>Bio:</strong> James will run a backyard ultra in Lucasville, OH starting on March 20, 2021. He will run as many 4.167 miles loops as he can starting every hour. The race ends when there is only one runner remaining.
+        </p>
+        
+        <p>
+          <strong>Adventure:</strong> Backyard Ultra
         </p>
         <p>
-          <strong>Country:</strong> United States
+          <strong>Country:</strong> USA
         </p>
         <p>
           <strong>Sport:</strong> Running
+        </p>
+        <p>
+          <strong>Favorite Phrase:</strong> Slow is smooth, and smooth is fast.
         </p>
       </div>
     );
