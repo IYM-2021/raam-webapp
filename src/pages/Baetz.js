@@ -21,7 +21,21 @@ class Baetz extends Component {
         <NavBar />
         <PageHeader text="James Baetz" />
         <AthleteInfo name="James Baetz" img={baetz} bio={BaetzBio} />
-
+        <div className="Live-Event row">
+        <div className="col Live-Event-Map-Box">
+          <div className="Garmin-Map">
+            <iframe
+              title="FraissardGarminMap"
+              src="https://share.garmin.com/IYM"
+              frameborder="0"
+              marginwidth="0"
+              marginheight="0"
+              width="100%"
+              height="760"
+            ></iframe>
+          </div>
+        </div>
+      </div>
         {/* <BaetzSocial /> */}
         <Footer />
       </Parallax>
