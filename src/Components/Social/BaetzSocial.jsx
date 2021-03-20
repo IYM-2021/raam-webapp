@@ -6,17 +6,19 @@ class BaetzSocial extends Component {
     return (
       <div className="row Social-Button-Box">
         <div className="col-sm-12">
-          <h2 className="Social-Button-Header">Follow James on __________</h2>
+          <h2 className="Social-Button-Header">
+            Find James on these platforms
+          </h2>
         </div>
         <div className="col-sm-12">
-          {/* <a
-            className="fab fa-instagram-square Social-Button"
-            href="https://www.instagram.com/crisscrossracing/"
+          <a
+            className="fab fa-twitter-square Social-Button"
+            href="https://twitter.com/crazyrunningdad/"
             target="_blank"
             rel="noopener noreferrer"
           >
             {" "}
-          </a> */}
+          </a>
         </div>
       </div>
     );

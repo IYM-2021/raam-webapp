@@ -25,7 +25,7 @@ class LiveEvent extends Component {
           <div className="col Live-Event-Map-Box">
             <div className="Garmin-Map">
               <iframe
-                title="FraissardGarminMap"
+                title="BaetzGarminMap"
                 src="https://share.garmin.com/IYM"
                 frameborder="0"
                 marginwidth="0"
